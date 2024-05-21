@@ -1,0 +1,1067 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* nav section start */
+.navbar{
+    background-color: white;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+
+.navbar-brand{
+    cursor: pointer;
+}
+
+.navbar-brand img{
+    margin-right: 10px;
+}
+
+.company-name{
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27.72px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #000000; 
+   display: flex;
+   align-items: center;
+}
+
+.nav-link{
+    font-family: Open Sans;
+    font-size: 20px !important;
+    font-weight: 800 !important;
+    line-height: 21.79px;
+    text-align: center;
+    color: #0000; 
+    position: relative;   
+    cursor: pointer;
+}
+
+
+
+.nav-link:hover::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #4EB867;
+    transition: background-color 0.3s;
+}
+
+.nav-btn{
+    width: Hug (133px)px;
+    height: Hug (43px)px;
+    padding: 9px 19px;
+    gap: 5px;
+    border-radius: 6px;
+    border: 1px;
+    opacity: 0px;
+    background: #4EB867;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: center;
+    color: #fff !important;
+    text-decoration: none !important;    
+    
+}
+
+/* nav section end */
+
+
+
+
+
+/* hero section start */
+.hero{
+    margin-top: 5px;
+    padding-bottom: 100px;
+}
+
+.welcome{
+    font-family: Open Sans;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 74.9px;
+    text-align: left; 
+    display: block !important; 
+}
+
+.green-fig{
+    color: #4EB867;
+}
+
+.offering{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #00000099;   
+    margin-top: 20px;
+    display: block !important;;
+}
+
+.hero-btn{
+    width: 371px;
+    height: 58px;
+    /* top: 25px; */
+    /* left: 55px; */
+    position: relative;
+    padding: 9px 19px;
+    gap: 5px;
+    border-radius: 6px;
+    opacity: 0px; 
+    background: #4EB867;
+    border: none;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: center;
+    color: white;  
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+.first-col{
+    margin-top: 100px !important;
+}
+
+.img-col-ii{
+    margin-top: 40px !important;
+}
+
+@media screen and(max-width: 768px)  {
+    .hero{
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+  
+    .welcome{
+        font-family: Open Sans;
+        font-size: 5px;
+        font-weight: 500;
+        text-align: left;  
+        line-height: 1.0;
+        display: inline;
+    }
+  
+
+    .offering{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 10.5px;
+        text-align: left;
+        display: inline;
+    }
+
+    .hero-btn{
+        width: Fixed (259px)px;
+        height: Fixed (42px)px;
+        padding: 5px 8px !important ;
+        border-radius: 6px;
+        opacity: 0px;
+        position: relative;
+        margin: 0 auto;
+        
+    }
+}
+
+/* hero section end */
+
+/* mission section start */
+.mission{
+    background-image: linear-gradient(270deg, rgba(26, 66, 42, 0.8) 0%, rgba(35, 82, 46, 0.8) 100%), url('https://dzrsteit2h2vm.cloudfront.net/figorate/images/Frame_1171275472.png');
+    background-size: cover !important;
+    background-repeat: no-repeat 50% !important;
+    height: auto !important;
+   
+}
+
+.mission-row{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.mission-head{
+    font-family: Open Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54.47px;
+    text-align: left;
+    
+}
+
+.mission-word{
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34.02px;
+    text-align: left;
+    
+}
+
+@media screen and(max-width: 768px)  {
+    .mission{
+        background-image: linear-gradient(270deg, rgba(26, 66, 42, 0.8) 0%, rgba(35, 82, 46, 0.8) 100%), url('https://dzrsteit2h2vm.cloudfront.net/figorate/images/Frame_1171275475(1).png');
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        height: auto !important;
+       
+    }  
+}
+/* mission section end */
+
+/*features section start */
+.features-head{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.features-word{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-two img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+.card-two{
+    padding: 2%;
+    margin-bottom: 2%;
+    transition: 0.3s;
+}
+
+.card-columns{
+    column-count: 3;
+}
+
+@media screen and (max-width: 768px) {
+    .features-head{
+        font-family: Open Sans;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35px;
+        text-align: center;
+        color: #000000;
+        
+    }
+    
+    .features-word{
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22.4px;
+        text-align: center;
+        color: #000000;
+        
+    }
+
+  .card-columns{
+    column-count: 1;
+  }
+
+  .community{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    .card-columns{
+      column-count: 1;
+    }
+    .community{
+        width: 100%;
+    }
+  }
+
+/*features section end */
+
+/* testing section start */
+.testing{
+    background: linear-gradient(0deg, #3FBE5D, #3FBE5D);
+
+}
+
+.genetic-img{
+    margin-top: 50px;
+}
+
+.man-img{
+    margin-top: 20%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px){
+    .testing{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .man-img{
+        width: 100%;
+    }
+    .genetic-img{
+        width: 100%;
+    }
+
+    .tailored-img{
+        width: 100%;
+    }
+    .expert-img{
+        width: 100%;
+    }
+}
+
+/* testing section end */
+
+
+/* download section start */
+.download-thick{
+    font-family: Open Sans;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 71.71px;
+    text-align: left;
+    
+}
+
+.download-word{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.43px;
+    text-align: left;
+    margin-top: 40px;
+    color: #00000080;
+
+    
+}
+
+.download-green{
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 87.16px;
+    text-align: left;
+    color: #14862E;
+    margin-top: 80px !important;
+    
+}
+
+.download-word-items{
+    margin-top: 150px !important;
+}
+
+.iphone-image{
+    width: 1043px;
+    height: 791px;
+}
+
+@media screen and (max-width: 768px) {
+    .download-thick{
+        font-family: Open Sans;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 29.96px;
+        text-align: left;   
+    }  
+
+    .download-word{
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20.43px;
+        text-align: left;
+        color: #00000080;  
+    }
+
+    .download-green{
+        font-family: Open Sans;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 38.13px;
+        text-align: left;
+        color: #14862E;   
+    }
+
+    .iphone-image{
+        width: 386px;
+        height: 292px;
+    }
+}
+
+
+/* download section end */
+
+/* why section start */
+.why{   
+    background: linear-gradient(0deg, #155524, #155524), url('https://dzrsteit2h2vm.cloudfront.net/figorate/images/unsplash_W9OKrxBqiZA.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat 50% !important;
+    height: auto !important;
+   
+}
+
+.why-heading{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.47px;
+    text-align: left;
+    text-align: center;
+    color: white;
+}
+
+.convinient{
+    font-family: Open Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.55px;
+    text-align: left;
+    color: white;    
+}
+
+.experience{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29.94px;
+    text-align: left;
+    color: white;    
+}
+
+@media screen and( max-width: 768px ) {
+    .convinient{
+        font-family: Open Sans;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33.55px;
+        text-align: left;
+        color: white;    
+    }
+    
+    .experience{
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.94px;
+        text-align: left;
+        color: white;    
+    }
+    .why-heading{
+        font-family: Open Sans;
+        font-size: 20px !important;
+        font-weight: 600 !important;
+       
+    }
+}
+
+
+/* why section end */
+
+
+/* footer section start */
+.footer{
+    background: #4EB867;
+
+}
+.footer-imagee{
+    width: 40px;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.footer-list li{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25.52px !important;
+    color: #fff;
+    
+}
+
+.first-list-word{
+    font-family: Space Grotesk !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 40.4px;
+    text-align: left;
+    color: #fff;    
+}
+
+.company-name-ii{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 40.32px !important;
+    letter-spacing: 0.01em !important;
+    text-align: left !important;
+    color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;
+    display: flex;
+    align-items: center;  
+}
+
+.company-name-ii img{
+    margin-right: 10px;
+}
+
+.footer-navbrand img{
+    color: white;
+}
+
+.footer-icons i{
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.footer-figorate{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;      
+}
+
+@media screen and (max-width: 768px) {
+    .footer-figorate{
+        font-family: Plus Jakarta Sans;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40.32px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;
+        
+    }
+
+    .first-list-word{
+        font-family: Space Grotesk;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26.4px;
+        text-align: left;        
+        color: #fff;    
+    }
+
+    .footer-list li{
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25.52px;
+        text-align: left;        
+        color: #fff; 
+    }
+
+    .footer-icons{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icons i{
+        margin: 0 20px;
+        font-size: 16px;
+    }
+
+    .company-name-ii{
+        font-family: Plus Jakarta Sans;
+        font-size: 22px !important;
+        font-weight: 600 !important;
+        line-height: 30.32px !important;
+        letter-spacing: 0.01em !important;
+        text-align: left !important;
+        color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;
+        display: flex;
+        align-items: center;  
+    }
+}
+
+
+/* footer section end */
+
+/* faq section start */
+.faq-heading{
+    font-family: Open Sans;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 74.9px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.what{
+    font-family: Space Grotesk;
+    font-size:26px;
+    font-weight: 700;
+    line-height: 51.04px;
+    text-align: left;
+    color: #18181B;
+    
+}
+
+.what-words{
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #0C0C0DCC;
+    
+}
+
+@media screen and (max-width:768px){
+    .what{
+        font-size: 20px;
+        font-weight:600 ;
+    }
+
+    .faq-heading{
+        font-family: Open Sans;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 54.9px;
+        text-align: left;
+        color: #000000;
+    
+    }
+}
+
+
+/* faq section end */
+
+
+/* consultation start */
+.consultation{
+    margin-top: 30px;
+}
+
+.consult-content{
+    margin-top: 5% !important;
+}
+
+.consult-info{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;    
+}
+
+.mail{
+    font-family: Plus Jakarta Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26.46px;
+    text-align: left;
+    
+}
+
+.book{
+    font-family: Plus Jakarta Sans;
+    font-size: 35px;
+    font-weight: 600 !important;
+    line-height: 44.1px;
+}
+
+.card3{
+    width: 584px;
+    /* height: 448px; */
+    background-color: #4EB867 !important;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.consult-form{
+    background-color: #4EB867!important;
+    margin-top: 40px; 
+}
+
+.form-group{
+    background-color: #4EB867 !important;   
+}
+
+.form-control{
+    background-color: #4EB867 !important;  
+    border: none !important;
+    box-shadow: none !important;
+   border-radius: 0 !important;
+    border-bottom: 1px solid white !important;
+    color: white !important;
+}
+
+.form-control::placeholder{
+    color: white !important;
+    border: none !important;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #4EB867;
+    outline: none;
+    
+}
+
+
+.textarea-control{
+    height: 20px;
+}
+
+.btn-form{
+    padding: 16px 110px !important;
+    border-radius: 12px !important;
+    background-color: white !important;
+    border: none;
+    font-size: 12px;
+    font-weight: 500 !important;
+    line-height: 15.31px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    color: #4EB867 !important;
+    width: 100%;
+}
+
+
+@media screen and (max-width:768px){
+    .book{
+        font-size: 21px;
+        font-weight: 600 !important;
+        line-height: 24.1px;
+        margin-top: 10%;
+        font-family: 'Plus Jakarta Sans';
+        text-align: center;
+    }
+    .consult-info{
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        line-height: 25.46px !important;
+        color: black !important;
+        font-family: 'Plus Jakarta Sans';
+    }
+    .card3{
+     width: 100% !important;
+    }
+}
+/* consultation end */
+
+/* join section start */
+.join-heading{
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52.8px;
+    text-align: center;
+    color: #18181B;    
+}
+
+.join-connect{
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    text-align: center;
+    color: #71717A;    
+}
+
+.btn-joinn{
+    width: Hug (251px)px;
+    height: Fixed (59px)px;
+    padding: 15px 48px ;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    border: none;
+    outline: none;
+    background: #4EB867;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    text-align: center;  
+}
+
+@media screen and (max-width:768px) {
+    .join-heading{
+        font-family: Space Grotesk;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 35.8px;
+        text-align: center;
+        color: #18181B;    
+    }
+
+    .join-connect{
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 22.6px;
+        text-align: center;
+        color: #71717A;    
+    }
+
+    .btn-joinn{
+        width: Hug (251px)px;
+        height: Fixed (59px)px;
+        padding: 10px 30px ;
+        gap: 7px;
+        border-radius: 10px;
+        opacity: 0px;
+        border: none;
+        outline: none;
+        background: #4EB867;
+        color: white;
+        font-family: Space Grotesk;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 33.6px;
+        text-align: center;  
+    }
+}
+/* join section end */
+
+/* new features section */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .col{
+    flex: 33.3%;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10px;
+}
+
+/* new price section start */
+.price-head{
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.8px;
+    text-align: center;
+    color: #18181B;   
+}
+
+.price-word{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #18181B;
+}
+
+.card{
+    border-radius: 18px !important;
+    border: 1px;
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.75);
+    /* margin-left: 80px; */
+ }
+
+
+ .card-ii{
+    border-radius: 18px !important;
+    border: 1px;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 10px -1px rgba(0,0,0,0.75);
+    padding-left: 12px;
+    background-color: #4EB867;
+ }
+
+ .white-image{
+    filter: brightness(0) invert(1);
+
+ }
+
+ .last-word{
+    margin-bottom: 35px;
+ }
+
+  .card:hover{
+    border-color: #4EB867;
+  }
+
+
+  .card-plan{
+    font-size: 27px;
+    font-weight: 600 !important;
+    line-height: 34.45px;
+    font-family: 'Space Grotesk';
+  }
+
+.pricee{
+    font-size: 30px;
+    font-weight: 700 !important;
+    line-height: 49.76px;
+    color: #4EB867 !important;
+    font-family: 'Space Grotesk'!important;
+}
+
+.new-card-words{
+    font-size: 18px;
+    font-family: space Grotesk;
+}
+
+.btn-price111{ 
+    border-radius: 12px !important;
+    text-align: center;
+    text-decoration: none !important;
+    border: 1px solid #4EB867;
+    font-size: 18px;
+    font-weight: 500 !important;
+    background-color: #4EB867 !important;
+    color: white !important;
+    padding: 15px 250px !important;
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px !important;
+    cursor: pointer;
+}
+
+.btn-price112 {
+    border-radius: 12px !important;
+    text-align: center;
+    text-decoration: none !important;
+    border: 1px solid #4EB867;
+    font-size: 18px;
+    font-weight: 500 !important;
+    background-color: white !important;
+    color: #2C79CD !important;
+    padding: 15px 250px;
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px){
+
+    .card{
+        width: 100%;
+    }
+    
+    .price-head{
+        font-family: Open Sans;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 24.2px;
+        text-align: center;        
+        color: #18181B;   
+    }
+    
+    .price-word{
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 17.6px;
+        text-align: center;        
+        color: #18181B;
+    }
+    
+    .card-plan{
+        font-size: 20px;
+        font-weight: 500 !important;
+        line-height: 30px;
+        font-family: 'Space Grotesk';
+    } 
+    .pricee{
+        font-size: 20px;
+        font-weight: 600 !important;
+        line-height: 35.76px;
+        color: #4EB867;
+        font-family: 'Space Grotesk'!important;
+    }
+    .personalized{
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        font-family: 'Space Grotesk' ;
+    }
+
+
+    .btn-price112{
+        text-decoration: none !important;
+        border: 1px solid #4EB867;
+        font-size: 15px;
+        font-weight: 500 !important;
+        color:white ;
+        background-color: #4EB867;
+        padding: 17px 100px !important ;
+        border-radius: 12px;  
+        margin-top: 40px;
+    }
+    .btn-price111{
+        text-decoration: none !important;
+        border: 1px solid #4EB867;
+        font-size: 15px;
+        font-weight: 500 !important;
+        color:white ;
+        background-color: #4EB867;
+        padding: 17px 100px !important ;
+        border-radius: 12px;  
+        margin-top: 40px;     
+    }
+}
+/* new price section end */
+
+
+
+/* faded rectangle on the consultation section */
+.faded-rectangle {
+    margin: 50px auto;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.faded-rectangle::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: rgba(192, 192, 192, 0.2);
+    z-index: -1;
+    border-radius: 10px; 
+    -webkit-box-shadow: 1px 0px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 9px -1px rgba(0,0,0,0.75);
+}
